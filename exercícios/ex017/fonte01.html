@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+
+            /*
+            Medidas Absolutas
+            cm, nm, in, px, pt, pc
+            
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            16px geralmente = 1em
+            */
+            font-size: 1em;
+
+            /* lighter normal bold bolder */
+        }
+
+        h1 {
+            /*
+            shothand font (mãozinha para declarar todas as CSS da fonte)
+            - font-style -> font-weight -> font-size -> font-family
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans';
+        
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur laborum quos libero sint adipisci sit, aliquam rem officia iure facilis dignissimos deserunt asperiores reiciendis, voluptatum tempore nesciunt ad earum odit optio! Eos laborum tenetur consequatur explicabo harum temporibus, aperiam ipsa doloremque, consectetur repellendus, odit veritatis neque obcaecati voluptate delectus quo facilis exercitationem cumque tempora. Culpa minima magni error perspiciatis debitis modi. Laudantium repellendus quidem provident, itaque distinctio eligendi consectetur quaerat voluptatum neque officiis molestiae, consequuntur sequi vitae error minima, in modi. Sed, laboriosam! Numquam vero possimus dolor ab obcaecati, eligendi ad nulla facere amet iure tempora nam asperiores aspernatur dolorem.</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit aliquam architecto harum voluptatibus omnis natus dolores quod ad possimus aperiam distinctio voluptatem fugiat eos eaque ab, sint perferendis quis dignissimos.</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto deserunt similique recusandae voluptate qui, impedit debitis maxime soluta laboriosam iste quasi ex aliquid et sed aperiam pariatur enim porro!</p>
+</body>
+</html>
